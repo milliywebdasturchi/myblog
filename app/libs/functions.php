@@ -8,3 +8,7 @@ function getArray($params) {
     print_r($params);
     echo "</pre>";
 }
+
+function testSum($a, $b) {
+    return $a + $b;
+}
